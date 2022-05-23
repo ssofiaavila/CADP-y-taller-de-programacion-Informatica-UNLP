@@ -1,0 +1,121 @@
+1. Realice un programa formado por 2 equipos de robots. Cada equipo está conformado por 1 robot recolector de flores y 1 robot de papeles. A cada equipo se le asigna
+un área de trabajo. Cada robot recolector de flores tiene 3 intentos para recoger todas las flores de esquinas de su área, escogidas al azar. En cada intento debe ir 
+a la esquina, recoger las flores y volver a su esquina de inicio. Cuando finaliza sus 3 intentos, debe avisar al robot jefe.
+Cada robot depositador de papales tiene 5 intentos para depositar un papel en 5 esquinas de su área, elegidas al azar. En cada intento, los robots deben ir a las esquinas, 
+depositar un papel tomado de una fuente de papeles en la esquina (13,13) y volver a su esquina original. Al finalizar sus 5 intentos, debe avisar al robot jefe. Finalmente, 
+el jefe debe determinar qué equipo terminó primero.
+• El robot jefe inicia en la esquina (1,1)
+• El área del equipo 1 está comprendida por las esquinas (2,2) y (12,12). El robot recolector de flores inicia en la esquina (2,1) y el depositador de flores inicia en (3,1)
+• El área del equipo 2 está comprendida por las esquinas (14,2) y (24,12). El robot recolector de flores inicia en la esquina (14,1) y el depositador de flores inicia en (15,1)
+
+
+
+2. Realice un programa con 2 equipos de robots de 2 robots y un fiscalizador.
+Cada equipo debe hacer el recorrido de L de (10,15). En cada equipo un robot recorre la arista vertical juntando flores, y el otro la horizontal juntando papeles.
+El fiscalizador debe indicar qué equipo ganó. El equipo ganador es el que termina primero su recorrido. • El equipo 1 inicia su recorrido en la esquina (5,5) 
+y el equipo 2 inicia el recorrido en la esquina (25,5)
+• El fiscalizador inicia en (1,1)
+• R1_1 en (2,1)
+• R2_1 en (3,1)
+• R1_2 en (4,1)
+• R2_2 en (5,1)
+
+
+3. Existen 2 equipos de 2 robots cada uno. Cada equipo debe formar con flores y papeles una letra L de 4 de ancho y 12 de alto. La letra se forma con 2 robots, 
+uno que realiza las líneas horizontales depositando una flor en cada esquina y otro que realiza la línea vertical depositando un papel en cada esquina. 
+Luego existe un robot fiscalizador que determina qué equipo terminó primero su letra L e informa 1 o 2 dependiendo del equipo ganador
+• Fiscalizador inicia en (1,1)
+• R1_1 en (50,50) y R1_2 en (51,51)
+• R2_1 en (52,52) y R2_2 en (53,53)
+• La letra L del primer equipo comienza en la esquina (5,4) y el del segundo equipo en (11,4)
+• La esquina (15,15) es la que contiene las flores y papeles que los robots deben juntar para formar su línea. Estas flores/ papeles deben tomarse de a una/o por cada robot
+• Suponga que existe la cantidad de flores y papeles para formar la línea
+• La letra L de cada equipo tendrá algunas esquinas con una flor y un papel, y otras solo con una flor y otras solo con un papel
+
+
+4. 2 equipos de 2 robots cada uno compiten entre sí. Un equipo jugará dentro del área (1,10)- (100,25), mientras que el otro hará lo mismo
+dentro del área (1,30) -(100,45). Un quinto robot fiscalizador será el encargado de comenzar con la competencia e importar qué equipo es el ganador. 
+La competencia consiste en lo siguiente:
+• El fiscalizador elige un numero al azar del 1 al 5. Ese número será el ancho “A “del rectángulo que deberán recorrer ambos equipos
+• El fiscalizador elige un numero al azar del 1 al 95. Ese número será la avenida V donde comienzan los rectángulos de ambos equipos.
+• El fiscalizador le informa los valores a ambos equipos para que un equipo recorra un rectángulo de “A” ancho y 15 de alto comenzando en la esquina (“V”,10),
+mientras que el otro equipo hará un rectángulo de las mismas dimensiones, pero comenzando en (“V”,30)
+• Ante el aviso del fiscalizador, UN robot por equipo comienza con la competencia recorriendo el perímetro de su rectángulo juntando todas las flores que encuentra
+en todas las esquinas. Al finalizar el recorrido, deberán dejar todas las flores juntadas en la esquina (5,15) para un equipo y en (5,40) para otro equipo, las 
+flores deberán ser dejadas de a una. Al finalizar de vaciar su bolsa, deberán volver a su esquina de inicio y pasarle la posta a su compañero de equipo
+• El otro robot deberá juntar de (5,15) o (5,40) según le corresponda, todas las flores (de a una) dejada por su compañero y depositar una flor en cada esquina 
+del perímetro de su rectángulo asignado (Asuma que junta tantas flores como esquinas deba recorrer). Finalizado el perímetro deberá volver a su esquina de inicio
+finalizando así su recorrido.
+• El primer equipo que complete todo el recorrido es el ganador. El fiscalizador deberá informar el equipo ganador.
+• Los 5 robots comienzan en (1,1), (2,2), (3,3), (4,4), (5,5)
+
+
+
+5. Existen 2 equipos, papeleros y floreros, de dos robots cada uno. El equipo Papeleros solo junta papeles y el otro, solo junta flores.
+El juego consiste en realizar 2 cuadrados, y cada cuadrado es realizado por un papelero y un florero de cada equipo, partiendo desde los vértices opuestos.
+• El primer cuadrado comprende el área entre las esquinas (3,3) y (13,13). El robot florero comienza en la esquina (3,3) y el robot papelero en la (13,13)
+• El segundo cuadrado comprende el área entre las esquinas (16,3) y (26,13). El robot florero comienza en la esquina (16,3) y el papelero en la (26,13). Al
+finalizar el juego, un robot fiscalizador
+deberá informar qué equipo finalizó primero, y la cantidad total de objetos (flores + papeles) juntados entre los dos equipos. El robot fiscalizador se ubica 
+en la esquina (14,6)
+
+
+
+6. 3 robots corren una carrera, en la cual tienen 5 intentos para avanzar una determinada cantidad de pasos. En cada intento los robots podrán dar
+entre 1 y 10 pasos, y deberán juntar todos los papeles que encuentren en cada esquina de su camino. Un robot fiscalizador es el encargado de indicarle a cada
+robot la esquina al azar desde donde deberán comenzar la carrera, dentro del cuadrante comprendido entre las esquinas (1,1) y (21,40)
+• El robot jugador 1 puede tener que empezar su recorrido en una avenida entre 1 y 7
+• El robot 2 puede tener que empezar su recorrido en una avenida entre 8 y 14
+• El robot 3 puede tener que empezar su recorrido en una avenida entre 15 y 21
+Al finalizar la carrera, los robots jugadores deben depositar en la esquina (1,30) todos los papeles que juntaron, y el robot fiscalizador debe informar qué 
+robot dio más pasos.
+• Robot 1 inicia en (1,1)
+• Robot 2 en (8,1)
+• Robot 3 en (15,1)
+• Fiscalizador en (25,1)
+
+
+7. Dos robots trabajadores deben recorrer el perímetro de un rectángulo asignado. Durante el
+recorrido deben ir recolectando todas las flores y papeles que encuentren. Al finalizar cada uno
+de los lados del rectángulo, los robots deben depositar todos los objetos recolectados hasta el momento: las flores en la esquina (21,21) y 
+los papeles en (22,22). Las flores y los papeles deben ser depositados de a uno. También en este momento deben informar al coordinador la cantidad 
+de objetos recolectados en el lado.
+• Un robot coordinador determina al azar el alto y el ancho del rectángulo que debe realizar cada uno de los robots recolectores dentro del área de 
+trabajo correspondiente. El coordinador, quien debe llevar la contabilidad de los objetos recolectados de cada robot, debe determinar e informar cuál 
+fue el robot que más objetos recolectó en total.
+• El área de trabajo del robot 1 es (1,1,20,20), el área de trabajo del robot 2 es (21,1,40,20). El
+coordinador inicia en (23,23); robot 1 en (1,1); robot 2 en (21,1).
+
+
+8. Dos robots trabajadores deben recorrer el perímetro de un rectángulo asignado. Durante el recorrido deben ir depositando una cantidad de flores 
+y una cantidad de papel en cada esquina. La cantidad de flores y la de papeles debe ser elegida al azar y debe ser distinta para cada esquina y para 
+cada objeto, eligiendo un valor entre 1 y 3. Las flores se encuentran en la esquina (21,21) y los papeles en (22,22). Las flores y los papeles deben ser 
+recolectados de a uno. Al finalizar el recorrido, los robots deben informar al coordinador la cantidad de objetos depositados. Suponga que en las fuentes 
+de flores y papeles hay objetos suficientes para ambos robots.
+Un robot coordinador determina al azar el alto y el ancho del rectángulo que debe realizar cada uno de los robots recolectores dentro del área de trabajo 
+correspondiente. El coordinador debe determinar e informar qué tipo de objetos fue el que se depositó más entre los dos trabajadores, si flores o papeles.
+El área de trabajo del robot 1 es (1,1,20,20), el área de trabajo del robot 2 es (21,1,40,20). El
+coordinador inicia en (23,23); robot 1 en (1,1); robot 2 en (21,1).
+
+
+9. Implemente el siguiente juego. Existen áreas privadas para cada uno de tres robots
+delimitadas por las esquinas (2,2) (7,7); (8,2) (13,7); (14,2) (19,7) respectivamente y un robot
+fiscalizador.
+Cada robot jugador debe tratar de juntar la mayor cantidad de flores posible, para esto tiene tres
+intentos. En cada intento se posiciona en una esquina determinada al azar (dentro de su área) y junta
+todas las flores de esa esquina y vuelve a su esquina original.
+El robot fiscalizador determinará cuántas flores juntaron entre los 3 robots.
+Los robots se posicionan inicialmente en (2,2), (8,2) y (14,2) y el robot fiscalizador en (1,1).
+
+
+10. Implemente el siguiente juego. Existe un área delimitada por las esquinas (10,10) y
+(20,20) compartida entre tres robots jugadores. Además existe un robot fiscalizador.
+Cada robot jugador debe tratar de juntar la mayor cantidad de flores posible, para esto tiene tres
+intentos. En cada intento se posiciona en una esquina del área determinada al azar, junta todas las
+flores de esa esquina y vuelve a su esquina original.
+El robot fiscalizador determinará qué robot juntó más flores, y su cantidad juntada.
+Los robots se posicionan inicialmente en (1,1), (2,1) y (3,1) y el robot fiscalizador en la esquina (4,1).
+
+
+11. Modifique el ejercicio 2 para que: el robot jugador que juntó más flores, las deposite en la
+esquina (21,21).
