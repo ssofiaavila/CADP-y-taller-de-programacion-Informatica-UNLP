@@ -1,3 +1,5 @@
+# Enunciados parciales viejos
+
 1. Realice un programa formado por 2 equipos de robots. Cada equipo está conformado por 1 robot recolector de flores y 1 robot de papeles. A cada equipo se le asigna
 un área de trabajo. Cada robot recolector de flores tiene 3 intentos para recoger todas las flores de esquinas de su área, escogidas al azar. En cada intento debe ir 
 a la esquina, recoger las flores y volver a su esquina de inicio. Cuando finaliza sus 3 intentos, debe avisar al robot jefe.
