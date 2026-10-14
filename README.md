@@ -4,7 +4,4 @@ Prácticas y material de CADP y taller de programación, cursadas 1er y 2do seme
 **No está todo porque perdí archivos.** 
 
 # CADP 
-
-### Práctica
-
-* 
+[Apuntes y finales](https://github.com/ssofiaavila/CADP-y-taller-de-programacion-Informatica-UNLP/tree/main/CADP/Apuntes%20y%20finales)
